@@ -108,12 +108,12 @@ Lunar SolarToLunar(Solar solar);
 /**
 *农历转公历
 */
-def LunarToSolar(lunar)
+def lunar_to_solar(lunar)
 
 /**
 *公历转农历
 */
-def SolarToLunar(solar)
+def solar_to_lunar(solar)
 ```
 
 ## API For swift
@@ -140,4 +140,17 @@ func  LunarToSolar(lunar Lunar) *Solar
 *公历转农历
 */
 func SolarToLunar(solar Solar) *Lunar
+```
+
+## API For Dart
+```
+/**
+*农历转公历
+*/
+static lunarToSolar(Lunar lunar) 
+
+/**
+*公历转农历
+*/
+static solarToLunar(Solar solar)
 ```
